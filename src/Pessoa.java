@@ -5,8 +5,8 @@ public abstract class Pessoa {
     protected String nascimento;
     protected String rg;
     protected int numeroCPF;
-
-    public abstract double salario();
+    
+   
 
     public String getNome() {
         return nome;
