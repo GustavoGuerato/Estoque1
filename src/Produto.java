@@ -1,3 +1,5 @@
+import constantes.estoqueStats;
+
 public class Produto extends Fornecedor {
 
     private int id;
@@ -149,4 +151,11 @@ public class Produto extends Fornecedor {
         return true;
     }
 
+    public void TemEstoque() {
+        if (qtd == 0) {
+            System.out.println(estoqueStats.foraEstoque);
+        } else {
+            System.out.println(estoqueStats.emEstoque);
+        }
+    }
 }
