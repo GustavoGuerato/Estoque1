@@ -81,4 +81,9 @@ public class itemPedido {
     public double calcularTotal() {
         return quantidade * precoUnitario;
     }
+
+    public double getSubtotal() {
+        return quantidade * precoUnitario;
+    }
+
 }
